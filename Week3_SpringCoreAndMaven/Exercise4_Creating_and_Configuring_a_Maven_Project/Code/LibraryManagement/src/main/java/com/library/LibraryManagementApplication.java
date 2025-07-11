@@ -1,0 +1,15 @@
+// package Week3_SpringCoreAndMaven.Exercise4_Creating_and_Configuring_a_Maven_Project.Code.LibraryManagement.src.main.java.com.library;
+
+package com.library;
+
+import com.library.service.BookService;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class LibraryManagementApplication {
+    public static void main(String[] args) {
+        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        BookService bookService = context.getBean("bookService", BookService.class);
+        bookService.addBook("The Ramayana");
+    }
+}
