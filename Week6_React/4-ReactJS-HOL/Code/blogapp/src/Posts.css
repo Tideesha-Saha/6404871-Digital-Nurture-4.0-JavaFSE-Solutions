@@ -1,0 +1,25 @@
+body{
+    background: #edeffc;
+}
+.post{
+    background: white;
+    padding: 10px 30px;
+    margin: 20px;
+    border-radius:20px ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    gap:50px;
+    align-items: center;
+}
+
+.buttons{
+    margin: 20px 0 0 0;
+    display: flex;
+    gap:40px;
+    align-items: center;
+
+    border-top: 1px solid rgba(0, 0, 0, 0.217);
+    padding: 15px 0;
+
+    justify-content: right;
+}
