@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: left;
+  background-color: rgb(214, 224, 208);
+  padding: 10px;
+}
+
+button{
+  padding: 5px;
+  font-size: 1.5rem;
+  margin: 10px 0;
+  width: 15vw;
+  border-radius: 5px;
+  background: #daefcc;
+  border: 1px solid black;
+}
+button:hover{
+  cursor: pointer;
+}
+
+.component{
+  margin: 30px;
+  background-color: #ffffff;
+  padding: 30px ;
+  border-radius: 10px;
+}
+
+input{
+  padding: 10px;
+  font-size: 1.5rem;
+  margin: 10px;
+
+}
+label{
+  font-size: larger;
+}
