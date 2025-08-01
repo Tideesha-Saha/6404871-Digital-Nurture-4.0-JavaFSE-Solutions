@@ -1,0 +1,58 @@
+.App {
+  padding: 30px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button{
+   padding: 10px 40px;
+  border-radius: 30px;
+  background-color: #1c5ace;
+  color:white;
+  border: none;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+.book-button{
+
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.flights{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+
+.flights ul li{
+  margin: 35px;
+    background: #f3f3f3;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    position: relative;
+  
+}
+
+.Modal{
+  display: flex;
+  align-items: center;
+  margin: 5vh 10vw;
+}
+
+.Modal img{
+  width: 50vw;
+}
+
+.Modal .text button{
+  margin-top: 40px;
+
+}
