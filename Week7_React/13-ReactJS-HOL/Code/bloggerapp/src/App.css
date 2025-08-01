@@ -1,0 +1,12 @@
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10vh auto;
+}
+
+.column{
+  padding-left: 30px;
+}
+.border-left {
+  border-left: 4px solid green;
+}
