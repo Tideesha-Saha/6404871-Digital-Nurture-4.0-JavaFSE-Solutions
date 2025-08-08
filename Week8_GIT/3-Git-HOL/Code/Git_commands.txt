@@ -1,0 +1,58 @@
+This is the List of commands executed for this Assignment:-
+
+1. git branch -a
+   Lists all branches — local and remote
+
+2. git branch GitNewBranch
+   Creates a new local branch called GitNewBranch.
+
+3. git branch -a
+   To list branches again to confirm GitNewBranch exists.
+
+4. git checkout GitNewBranch
+   Switches to GitNewBranch branch.
+
+5. git add .
+   Stages all changes for commit.
+
+6. git commit -m "Added file1.txt and file2.txt in Branch: GitNewBranch"
+   Creates a commit in the current branch (GitNewBranch) with the staged files and that message.
+
+7. git diff main GitNewBranch
+   Shows text differences between the main branch and GitNewBranch.
+
+8. git status
+   Displays current status.
+
+9. git checkout main
+   Switches your working directory back to the main branch.
+
+10. git mergetool --tool=p4merge
+    Opens P4Merge for resolving merge conflicts.
+
+11. git config --global merge.tool p4merge
+    Sets P4Merge as the default merge tool.
+
+12. git config --global mergetool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
+    Tells Git where to find the P4Merge executable.
+
+13. git config --global diff.tool p4merge
+    Sets P4Merge as the default diff (comparison) tool.
+
+14. git config --global difftool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
+    Tells Git where to find P4Merge when running diffs.
+
+15. git difftool main GitNewBranch
+    Launches P4Merge in diff mode to visually compare changes between main and GitNewBranch.
+
+16. git merge GitNewBranch
+    Merges the changes from GitNewBranch into the main branch.
+
+17. git log --oneline --graph --decorate
+    Shows a commit history with branch.
+
+18. git branch -d GitNewBranch
+    Deletes the GitNewBranch branch.
+
+19. git status
+    Observe the git status.
