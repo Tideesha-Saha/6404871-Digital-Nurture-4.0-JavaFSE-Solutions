@@ -1,0 +1,82 @@
+This is the List of commands executed for this Assignment:-
+
+1. git status 
+    Verified that the main branch was in a clean state before creating a new branch.
+
+2. git checkout -b GitWork 
+    Created a new branch named GitWork and switched to it.
+
+3. echo "<message>This is a Demo Message.</message>" > hello.xml 
+    Created a file hello.xml in GitWork.
+
+4. git add hello.xml
+    Staged hello.xml for commit.
+
+5. git commit -m "Added hello.xml in Gitwork branch"   
+    Committed the file to GitWork.
+
+6. echo "<message>This is the Updated Demo Message.</message>" > hello.xml 
+    Updated hello.xml content in GitWork branch.
+
+7. git status
+    Checked status to confirm hello.xml was modified and ready to stage.
+
+8. git add hello.xml 
+    Staged the updated file.
+
+9. git commit -m "Added and updated hello.xml in Gitwork branch"    
+    Committed the update to GitWork branch.
+
+10. git checkout main 
+    Switched to main branch.
+
+11. echo "<message>This is the Demo Message for Main Branch</message>" > hello.xml 
+    Created hello.xml in main with different content.
+
+12. git add hello.xml 
+    Staged the file in main.
+
+13. git commit -m "Added hello.xml in Main branch" 
+    Committed it to main.
+
+14. git diff --git a/hello.xml b/hello.xml 
+    Shows differences in hello.xml.
+
+15. git difftool main GitWork 
+    P4Merge to visually compare changes in hello.xml between main and GitWork.
+
+16. git merge GitWork 
+    Merged GitWork into main.
+
+17. cat hello.xml 
+    Displayed hello.xml contents with merge conflict markers.
+
+18. git mergetool 
+    Opened P4Merge for a 3-way merge to resolve the conflict visually.
+
+19. git add hello.xml 
+    Staged the resolved version of hello.xml.
+
+20. git commit -m "Merged GitWork into main" 
+    Finalized the merge by committing resolved changes.
+
+21. git status 
+    Observe the git status.
+
+22. echo "*.orig" >> .gitignore 
+    Updated .gitignore to ignore .orig backup files from merge tools.
+
+23. git add .gitignore 
+    Staged .gitignore.
+
+24. git commit -m "Updated .gitignore to exclude backup files" 
+    Committed the .gitignore changes.
+
+25. git branch -a 
+    Listed all local and remote branches.
+
+26. git branch -d GitWork
+    Deleted GitWork branch after merge.
+
+27. git log --oneline --graph --decorate 
+    Displayed a view of commit history showing the merge.
