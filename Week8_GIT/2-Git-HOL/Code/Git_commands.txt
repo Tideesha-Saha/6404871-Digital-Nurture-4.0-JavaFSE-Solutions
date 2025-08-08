@@ -1,0 +1,21 @@
+This is the List of commands executed for this Assignment:-
+
+
+touch works.log
+
+mkdir log
+
+touch log/test.txt 
+
+touch .gitignore
+
+git status
+
+git add .gitignore
+git commit -m "Added .gitignore to ignore .log files and log folder"
+
+touch Tasks.log
+
+
+Notes:
+.log files & log/ folder does not show up in git status 
