@@ -1,0 +1,45 @@
+This is the List of commands executed for this Assignment:-
+
+## Step 1: Setup your machine with Git Configuration
+
+git version
+
+git config --global user.name "Tideesha Saha"
+git config --global user.email "tideeshasaha@gmail.com"
+
+git config --global --list
+
+
+
+## Step 2: Integrate notepad++.exe to Git and make it a default editor
+
+notepad++
+
+$ notepad++.exe bash -profile
+
+$ git config --global core.editor "notepad++.exe -multiInst -nosession" 
+
+git config --global -e
+
+
+
+## Step 3: Add a file to source code repository
+
+git init GitDemo
+
+ls -al
+
+echo "Welcome to the version control. This is a Text File" >> welcome.txt
+cat welcome.txt
+
+git status
+
+git add welcome.txt
+
+git commit
+
+git remote add origin https://github.com/Tideesha-Saha/GitDemo.git
+
+git branch -M main
+
+git push origin main
